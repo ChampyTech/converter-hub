@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Hub // ChampyTech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Converter Hub</h1>
+        <div class="form-group">
+            <label for="hex">Hexadecimal value:</label>
+            <input type="text" id="hex" placeholder="Enter hexadecimal value" onchange="convertFromHex()">
+        </div>
+        <div class="form-group">
+            <label for="dec">Decimal value:</label>
+            <input type="text" id="dec" placeholder="Enter decimal value" onchange="convertFromDec()">
+        </div>
+        <div class="form-group">
+            <label for="oct">Octal value:</label>
+            <input type="text" id="oct" placeholder="Enter octal value" onchange="convertFromOct()">
+        </div>
+        <div class="form-group">
+            <label for="bin">Binary value:</label>
+            <input type="text" id="bin" placeholder="Enter binary value" onchange="convertFromBin()">
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
